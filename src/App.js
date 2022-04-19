@@ -1,12 +1,10 @@
 import React from "react";
-import ClassComp from "./Components/ClassComp";
-import FuncComp from "./Components/FuncComp";
+import Main from "./Routing/Main";
 
 const App = () => {
   return (
     <div>
-      <FuncComp />
-      <ClassComp />
+      <Main />
     </div>
   );
 };
